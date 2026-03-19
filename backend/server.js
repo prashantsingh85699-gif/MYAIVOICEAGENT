@@ -35,6 +35,11 @@ app.use('/api', limiter);
 app.use('/api/tts', ttsRoutes);
 app.use('/api/coach', coachRoutes);
 
+// Health Check
+app.get('/', (req, res) => {
+  res.send('VitalVoice API is Live and Healthy! 🩺🚀');
+});
+
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({ error: 'Something went wrong!', details: err.message });
