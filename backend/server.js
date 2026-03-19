@@ -39,6 +39,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Something went wrong!', details: err.message });
 });
 
-app.listen(PORT, '127.0.0.1', () => {
-  console.log(`VitalVoice backend running on http://127.0.0.1:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`VitalVoice backend running on port ${PORT}`);
 });
