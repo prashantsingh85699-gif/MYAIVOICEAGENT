@@ -107,7 +107,7 @@ export default function VitalsVoiceAgent() {
     setHistory(prev => [...prev, { role: 'user', text: input }]);
     
     try {
-      const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:9091';
+      const API_URL = import.meta.env.VITE_API_URL || 'https://myaivoiceagent-wds9.onrender.com';
       const response = await fetch(`${API_URL}/api/coach/checkin`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
