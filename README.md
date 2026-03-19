@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# MYAIVOICEAGENT
-=======
 # VitalVoice - AI Clinical Assistant 🌌🩺👤
 
 VitalVoice is a high-fidelity AI medical coaching agent designed for the **Murf AI Voice Hackathon**. It features a cinematic dashboard, real-time multilingual sync, and deep medical intelligence powered by Mistral AI.
@@ -9,8 +6,8 @@ VitalVoice is a high-fidelity AI medical coaching agent designed for the **Murf 
 
 ### 1. Clone & Install
 ```bash
-git clone <your-repo-link>
-cd VitalVoice
+git clone https://github.com/prashantsingh85699-gif/MYAIVOICEAGENT.git
+cd MYAIVOICEAGENT
 ```
 
 ### 2. Configure Keys
@@ -38,4 +35,3 @@ npm run dev # Starts on http://127.0.0.1:3333
 
 ---
 Built for the **Murf AI Hackathon 2026** 💎✨
->>>>>>> 88463aa (Final v3.7 - VitalVoice with Misty AI Persona)
