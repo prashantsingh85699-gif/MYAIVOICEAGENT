@@ -17,7 +17,8 @@ app.use(cors({
     'http://127.0.0.1:3333',
     'http://localhost:3333',
     'http://127.0.0.1:5179', 
-    'http://localhost:5179'
+    'http://localhost:5179',
+    'https://myaivoiceagent-1.onrender.com'
   ],
   credentials: true
 }));
